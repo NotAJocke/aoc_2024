@@ -1,21 +1,10 @@
-# Aoc2024
+# Advent of Code 2024 
 
-**TODO: Add description**
+My advent of code attempts for 2024, in Elixir
 
-## Installation
+My goal this year is to learn and improve in Elixir. The code for each day should become more idiomatic 🔥
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `aoc_2024` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:aoc_2024, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/aoc_2024>.
+## Days
+- [Day 1: Historian Hysteria](./lib/1historian_hysteria.ex)
+- [Day 2: Red-Nosed Reports](./lib/2red_nosed_reports.ex)
 
