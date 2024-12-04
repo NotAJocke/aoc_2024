@@ -1,4 +1,12 @@
 defmodule MullItOver do
+  @moduledoc """
+  Code for the \"3. Mull It Over\" problem of the advent of code 2024. 
+  https://adventofcode.com/2024/day/3
+
+  Parsing multiplication instructions, along with other valid 
+  and invalid instructions, and executing them.
+  """
+
   defp input do
     "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))"
   end
