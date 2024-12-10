@@ -15,14 +15,19 @@ defmodule Matrix do
   end
 
   def parse(string, :int) do
-    matrix = parse(string, :string)
-
-    m =
-      Enum.map(matrix.data, fn line ->
+    data =
+      String.split(string, "\n", trim: true)
+      |> Enum.map(&String.graphemes/1)
+      |> Enum.map(fn line ->
         Enum.map(line, &String.to_integer/1)
       end)
+      |> Enum.map(&List.to_tuple/1)
+      |> List.to_tuple()
 
-    %{matrix | data: m}
+    %Matrix{
+      data: data,
+      size: {tuple_size(elem(data, 0)), tuple_size(data)}
+    }
   end
 
   def get_at(matrix, x, y) do
