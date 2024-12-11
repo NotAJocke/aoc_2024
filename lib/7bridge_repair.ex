@@ -1,4 +1,12 @@
 defmodule BridgeRepair do
+  @moduledoc """
+  Code for the \"7. Bridge Repair\" problem of the advent of code 2024.
+  https://adventofcode.com/2024/day/7
+
+  Solving equations using different operators to repair a bridge,
+  with backtracking to find valid solutions.
+  """
+
   def input do
     """
     190: 10 19

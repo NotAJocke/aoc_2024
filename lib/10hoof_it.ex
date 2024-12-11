@@ -1,4 +1,11 @@
 defmodule HoofIt do
+  @moduledoc """
+  Code for the \"10. Hoof It\" problem of the advent of code 2024.
+  https://adventofcode.com/2024/day/10
+
+  Finding and scoring valid trails formed by consecutive numbers on a grid.
+  """
+
   def input do
     """
     89010123

@@ -1,4 +1,12 @@
 defmodule GuardGallivant do
+  @moduledoc """
+  Code for the \"6. Guard Gallivant\" problem of the advent of code 2024.
+  https://adventofcode.com/2024/day/6
+
+  Simulating a guard's movement on a map with obstacles,
+  detecting loops and adjusting paths accordingly.
+  """
+
   def input do
     """
     ....#.....

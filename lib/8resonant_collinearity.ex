@@ -1,4 +1,12 @@
 defmodule ResonantCollinearity do
+  @moduledoc """
+  Code for the \"8. Resonant Collinearity\" problem of the advent of code 2024.
+  https://adventofcode.com/2024/day/8
+
+  Analyzing and finding possible antenna positions and their collinearity,
+  while detecting and processing possible resonance interactions between them.
+  """
+
   def input do
     """
     ............

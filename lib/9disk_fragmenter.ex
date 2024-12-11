@@ -1,4 +1,13 @@
 defmodule DiskFragmenter do
+  @moduledoc """
+  Code for the \"9. Disk Fragmenter\" problem of the advent of code 2024.
+  https://adventofcode.com/2024/day/9
+
+  Simulating the process of decompressing and optimizing disk space,
+  with operations for moving and calculating checksums based on
+  file fragment positions.
+  """
+
   def input do
     "2333133121414131402"
   end
